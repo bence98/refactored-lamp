@@ -1,0 +1,3 @@
+#!/bin/sh
+curl 'https://www.nyerjanestlevel.hu/api/v2/campaigns/220424c3-074c-4c86-b3cb-34b06f737ef2/customers/30254956-3cbd-473f-93ff-d4e7f93a792c/submissions' --compressed -H 'Referer: https://www.nyerjanestlevel.hu/balatonnyerdmegafolytatast' -H 'Content-Type: application/hal+json' -H 'Origin: https://www.nyerjanestlevel.hu' -H 'Cookie: visid_incap_1954010=P7e3ngTlQwmIwjUbc3ap5uD2pl8AAAAAQUIPAAAAAAAZIvCVQCtEtQQStyNIvJkr; incap_ses_1083_1954010=pKggE52K2FjygA72+pYHD+L2pl8AAAAAKygixWWszUW8RmjJsarRwg==' --data-raw "{\"type\":\"product_code\",\"campaignFields\":{\"promotionCode\":\"$1\"}}"
+echo
