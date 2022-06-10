@@ -2,7 +2,7 @@
 # Callsign searcher for Hungarian (HA/HG) callsigns
 # Takes a pattern, and returns the number of callsigns matching the query
 # Powered by HA5KDR's callsign searcher
-# Written by CsokiCraft (callsign pending), 2022
+# Written by CsokiCraft (HA7CSK), 2022
 # Licensed under WTFPL
 
 import requests
